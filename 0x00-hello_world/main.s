@@ -4,24 +4,17 @@
 	.globl	main
 	.type	main, @function
 main:
-.LFB0:
+.LFB23:
 	.file 1 "main.c"
-	.loc 1 9 1
+	.loc 1 9 1 view -0
 	.cfi_startproc
 	endbr64
-	pushq	%rbp
-	.cfi_def_cfa_offset 16
-	.cfi_offset 6, -16
-	movq	%rsp, %rbp
-	.cfi_def_cfa_register 6
-	.loc 1 10 12
+	.loc 1 10 5 view .LVU1
+	.loc 1 11 1 is_stmt 0 view .LVU2
 	movl	$0, %eax
-	.loc 1 11 1
-	popq	%rbp
-	.cfi_def_cfa 7, 8
 	ret
 	.cfi_endproc
-.LFE0:
+.LFE23:
 	.size	main, .-main
 .Letext0:
 	.file 2 "/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h"
@@ -413,8 +406,8 @@ main:
 	.byte	0x8
 	.byte	0x5
 	.long	0x65
-	.quad	.LFB0
-	.quad	.LFE0-.LFB0
+	.quad	.LFB23
+	.quad	.LFE23-.LFB23
 	.uleb128 0x1
 	.byte	0x9c
 	.byte	0
@@ -644,8 +637,6 @@ main:
 	.string	"_IO_buf_end"
 .LASF27:
 	.string	"_old_offset"
-.LASF49:
-	.string	"GNU C17 9.4.0 -mtune=generic -march=x86-64 -g -fasynchronous-unwind-tables -fstack-protector-strong -fstack-clash-protection -fcf-protection"
 .LASF47:
 	.string	"sys_nerr"
 .LASF22:
@@ -656,6 +647,8 @@ main:
 	.string	"size_t"
 .LASF32:
 	.string	"_offset"
+.LASF49:
+	.string	"GNU C17 9.4.0 -mtune=generic -march=x86-64 -g -Og -fasynchronous-unwind-tables -fstack-protector-strong -fstack-clash-protection -fcf-protection"
 .LASF16:
 	.string	"_IO_write_ptr"
 .LASF11:
