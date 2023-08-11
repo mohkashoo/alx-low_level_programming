@@ -12,10 +12,11 @@ int main(void)
 	int n;
 
 	srand(time(0));
+
+	int lastDigit;
+
 	n = rand();
-
-	int lastDigit = n % 10;
-
+	lastDigit = n % 10;
 	if (lastDigit > 5)
 	{
 
