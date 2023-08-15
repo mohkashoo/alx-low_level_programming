@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_jack_bauer - Prints every minute of the day of Jack Bauer.
+ * jack_bauer - Prints every minute of the day of Jack Bauer.
  *
  * This function prints the time from 00:00 to 23:59 using the _putchar
  */
