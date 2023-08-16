@@ -10,16 +10,15 @@ int main(void)
 	unsigned long a = 1, b = 2, next;
 	int count;
 
-	printf("%lu, %lu", a, b);
+	printf("%lu", a);
 
-	for (count = 2; count < 98; count++)
+	for (count = 1; count < 98; count++)
 	{
+	printf(", %lu", b);
 	next = a + b;
-	printf(", %lu", next);
 	a = b;
 	b = next;
 	}
-
 	printf("\n");
 	return (0);
 }
