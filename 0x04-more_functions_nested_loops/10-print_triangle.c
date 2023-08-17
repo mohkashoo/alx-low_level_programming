@@ -1,11 +1,8 @@
 #include "main.h"
 
 /**
- * print_triangle - print squaries
- *
- * @size: contain the values
- *
- * Return: nothing 0
+ * print_triangle - prints a triangle, followed by a new line
+ * @size: size of the triangle
  */
 
 void print_triangle(int size)
@@ -17,15 +14,24 @@ void print_triangle(int size)
 	}
 	else
 	{
-	int row, column;
 
-	for (row = 0; row < size; row++)
+	int i, j;
+
+	for (i = 1; i <= size; i++)
 	{
-	for (column = 0; column <= row; column++)
+	for (j = i; j < size; j++)
 	{
+
+	_putchar(' ');
+	}
+
+	for (j = 1; j <= i; j++)
+	{
+
 	_putchar('#');
 	}
 	_putchar('\n');
 	}
 	}
+
 }
