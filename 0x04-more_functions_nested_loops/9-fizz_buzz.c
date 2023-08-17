@@ -1,10 +1,17 @@
 #include <stdio.h>
 
-int main()
+/**
+ * main - Entry point
+ *
+ * Return: Always 0
+ */
+
+int main(void)
 
 {
 
 	int i;
+
 	for (i = 1; i <= 100; i++)
 	{
 	if (i % 3 == 0 && i % 5 == 0)
@@ -14,7 +21,7 @@ int main()
 	else if (i % 3 == 0)
 	{
 	printf("Fizz ");
-        }
+	}
 	else if (i % 5 == 0)
 	{
 	printf("Buzz ");
@@ -25,5 +32,5 @@ int main()
 	}
 	}
 
-	return 0;
+	return (0);
 }
