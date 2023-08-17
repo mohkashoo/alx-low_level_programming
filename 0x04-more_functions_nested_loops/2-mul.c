@@ -3,11 +3,12 @@
 /**
  * mul - to multiplie a two numbers
  *
- * @c: Hloding the value
+ * @a: Hloding the value
+ * @b: Holding value
  * Return: a * b
  */
 int mul(int a, int b)
 
 {
-	return(a*b);
+	return (a * b);
 }
