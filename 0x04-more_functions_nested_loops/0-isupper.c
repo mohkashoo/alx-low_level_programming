@@ -3,7 +3,8 @@
 /**
  * _isupper - Display if char is upper case ad print 1 or 0
  *
- * Return: Always 0 (Success)
+ * @c: The character to be taested for uppercase
+ * Return: 0 or 1
  */
 
 int _isupper(int c)
