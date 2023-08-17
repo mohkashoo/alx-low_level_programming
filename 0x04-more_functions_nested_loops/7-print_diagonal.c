@@ -3,8 +3,8 @@
 
 /**
  * print_diagonal - draws a diagonal line on the terminal
- * @n: number of times the character \ should be printed
  *
+ * @n: number of times the character \ should be printed
  */
 
 
@@ -17,9 +17,9 @@ void print_diagonal(int n)
 	{
 
 	_putchar('\n');
-
 	}
 	else
+
 	{
 
 	int i, j;
@@ -27,7 +27,8 @@ void print_diagonal(int n)
 
 	for (i = 0; i < n; i++)
 
-	}
+	{
+
 	for (j = 0; j < n; j++)
 
 	{
@@ -45,7 +46,6 @@ void print_diagonal(int n)
 	_putchar('\n');
 
 	}
-
 	}
 
 }
