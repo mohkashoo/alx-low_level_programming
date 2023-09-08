@@ -91,7 +91,7 @@ int main(int argc, char *argv[])
 
 	len = len1 + len2 + 1;
 
-	result = malloc(sizeof(int) *len);
+	result = malloc(sizeof(int) * len);
 
 	if (!result)
 
