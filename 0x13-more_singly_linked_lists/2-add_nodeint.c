@@ -8,7 +8,7 @@
  *Return: Null or node ptr
  */
 
-listint_t* add_nodeint(listint_t **head, const int n)
+listint_t *add_nodeint(listint_t **head, const int n)
 
 {
 	listint_t *fresh;
