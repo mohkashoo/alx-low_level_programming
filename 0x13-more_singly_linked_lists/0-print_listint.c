@@ -10,6 +10,7 @@
 size_t print_listint(const listint_t *u)
 {
 	size_t ber = 0;
+
 	while (u)
 	{
 		printf("%d\n", u->n);
