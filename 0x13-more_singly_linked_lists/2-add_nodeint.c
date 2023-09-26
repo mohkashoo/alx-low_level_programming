@@ -2,7 +2,7 @@
 
 /**
  *add_nodeint - fresh node adding
- *n: node inseted
+ *@n: node inseted
  *@head: the first node
  *
  *Return: Null or node ptr
