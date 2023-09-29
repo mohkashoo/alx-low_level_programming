@@ -2,7 +2,7 @@
 
 /**
  *set_bit - set bits to 1 as an index
- *a: number ofto change  ptr
+ *@a: number ofto change  ptr
  *@index: the seted to 1
  *Return: -1 faild 1 success
  */

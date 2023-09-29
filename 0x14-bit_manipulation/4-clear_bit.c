@@ -2,7 +2,7 @@
 
 /**
  *clear_bit - reset the vlue to zero
- *@n: to a changed number ptr
+ *@a: to a changed number ptr
  *@index: for the bit that we set to zero
  *Return: -1 falid 1 success
  */
@@ -14,7 +14,7 @@ int clear_bit(unsigned long int *a, unsigned int index)
 
 		return (-1);
 
-	*a = (~(1UL << index) &*a);
+	*a = (~(1UL << index) & *a);
 
 	return (1);
 
