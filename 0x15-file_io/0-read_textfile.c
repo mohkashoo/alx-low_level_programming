@@ -5,7 +5,7 @@
  *read_textfile- txt file read
  *@fname:bing txt file
  *@lett: letters to be read  number
- *Return: actual write 
+ *Return: actual write
  */
 
 ssize_t read_textfile(const char *fname, size_t lett)
@@ -21,7 +21,7 @@ ssize_t read_textfile(const char *fname, size_t lett)
 	if (fd == -1)
 		return (0);
 
-	buf = malloc(sizeof(char) *lett);
+	buf = malloc(sizeof(char) * lett);
 
 	t = read(fd, buf, lett);
 	w = write(STDOUT_FILENO, buf, t);
